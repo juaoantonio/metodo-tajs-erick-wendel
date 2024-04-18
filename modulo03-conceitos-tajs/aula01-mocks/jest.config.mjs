@@ -6,7 +6,7 @@
 const config = {
   clearMocks: true,
   coverageProvider: "v8",
-  injectGlobals: false
-};
+  injectGlobals: false,
+}
 
-export default config;
+export default config

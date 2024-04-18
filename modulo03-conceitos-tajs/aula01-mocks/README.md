@@ -16,7 +16,7 @@ node -v
 # v18.17.0
 ```
 
-## Abra  pasta do treinamento
+## Abra pasta do treinamento
 
 Na pasta onde você guarda todos os projetos do treinamento, vamos supor que vá chama-lo de `treinamento-metodotajs-erickwendel`
 
@@ -34,10 +34,13 @@ npm ci --silent
 ### Executando testes em modo de execução
 
 Para executar os testes em modo live reload
+
 ```shell
 npm run test:dev
 ```
+
 ou apenas executá-los
+
 ```shell
 npm run test
 ```
@@ -46,9 +49,10 @@ npm run test
 
 A pasta [.vscode](./../.vscode) está localizada na raiz dos projetos assim não terá a necessidade de replicar a configuração ao longo do treinamento.
 
-### Abra  pasta do treinamento no VSCode
+### Abra pasta do treinamento no VSCode
 
 Supondo que você está em `treinamento-metodotajs-erickwendel/aula01-setup-jest` e já restaurou os pacotes seguindo os passos anteriores execute:
+
 ```shell
 code ../
 # para abrir a pasta que contem todos os projetos
@@ -81,6 +85,7 @@ Agora que o projeto está aguardando conexões, aperte `F5`, o VSCode vai pausar
 Depois é só apertar `F5` novamente para deixar os testes terminarem sua execução.
 
 Seu sua aba `terminal` do VSCode vai estar similar ao output abaixo:
+
 ```shell
 Debugger attached.
 Debugger attached.
